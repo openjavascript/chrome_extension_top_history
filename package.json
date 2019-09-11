@@ -9,7 +9,7 @@
     "npm": ">=3"
   },
   "scripts": {
-    "build": "rm -rf ./top_history && webpack --config scripts/config/webpack.config.prod.js && cp ./src/manifest.json ./save-anywhere && npm run finishbuild",
+    "build": "rm -rf ./top_history && webpack --config scripts/config/webpack.config.prod.js && cp ./src/manifest.json ./top_history && npm run finishbuild",
     "serve": "cross-env NODE_ENV=development webpack-dev-server --config scripts/config/webpack.config.dev.js --hot --inline --host 0.0.0.0 --disable-host-check --history-api-fallback",
     "finishbuild": "sh ./finishbuild.sh",
     "backup": "cp -rf ./top_history/chrome ./src/ && cp -rf ./top_history/manifest.json ./src/manifest.json",

@@ -1,0 +1,11 @@
+{
+   "qianxin": {
+      "message": "top-history"
+   }
+   , "plugin_name": {
+      "message": "top-history"
+   }
+   , "description": {
+      "message": "chrome 浏览器插件 显示页面访问次数"
+   }
+}

@@ -1,8 +1,8 @@
-rm -rf ./save-anywhere/icons*/manifest.* 
-cp -rf ./src/chrome ./save-anywhere 
-cp -rf ./src/manifest.json ./save-anywhere/manifest.json
+rm -rf ./top_history/icons*/manifest.* 
+cp -rf ./src/chrome ./top_history 
+cp -rf ./src/manifest.json ./top_history/manifest.json
 
-cp -rf ./save-anywhere/index.html ./save-anywhere/sync.html
-cp -rf ./save-anywhere/index.html ./save-anywhere/importExport.html
-cp -rf ./save-anywhere/index.html ./save-anywhere/dataManage.html
-cp -rf ./save-anywhere/index.html ./save-anywhere/setting.html
+cp -rf ./top_history/index.html ./top_history/sync.html
+cp -rf ./top_history/index.html ./top_history/importExport.html
+cp -rf ./top_history/index.html ./top_history/dataManage.html
+cp -rf ./top_history/index.html ./top_history/setting.html

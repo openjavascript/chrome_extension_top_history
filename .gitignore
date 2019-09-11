@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 yarn.lock
 
-save-anywhere
+top_history
 
 .DS_Store
 

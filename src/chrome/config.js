@@ -1,7 +1,7 @@
 const config = {
     "name": "config.js"
-    , "dbName": "save-anywhere"
-    , "dbDesc": "save-anywhere database"
+    , "dbName": "top_history"
+    , "dbDesc": "top_history database"
     , "dbDataTableName": "notes"
 
     , "operationDelayMs": 500
