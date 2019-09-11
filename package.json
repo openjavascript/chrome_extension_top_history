@@ -1,5 +1,5 @@
 {
-  "name": "chrome_extension_dev_example",
+  "name": "chrome_extension_top_history",
   "version": "1.0.0",
   "description": "chrome 浏览器插件开发示例",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openjavascript/chrome_extension_dev_example.git"
+    "url": "git+https://github.com/openjavascript/chrome_extension_top_history.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/openjavascript/chrome_extension_dev_example/issues"
+    "url": "https://github.com/openjavascript/chrome_extension_top_history/issues"
   },
-  "homepage": "https://github.com/openjavascript/chrome_extension_dev_example#readme"
+  "homepage": "https://github.com/openjavascript/chrome_extension_top_history#readme"
 }
