@@ -1,0 +1,19 @@
+{
+  "name": "chrome_extension_dev_example",
+  "version": "1.0.0",
+  "description": "chrome 浏览器插件开发示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openjavascript/chrome_extension_dev_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openjavascript/chrome_extension_dev_example/issues"
+  },
+  "homepage": "https://github.com/openjavascript/chrome_extension_dev_example#readme"
+}
