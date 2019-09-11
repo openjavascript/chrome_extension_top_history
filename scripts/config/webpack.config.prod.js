@@ -105,7 +105,7 @@ webpackConfig.plugins = [
         }
     }),
 
-    new FaviconsWebpackPlugin(helpers.root('/src/icon.png'))
+    new FaviconsWebpackPlugin(helpers.root('/src/assets/img/icon.png'))
 ]
 
 if (prod.isCompress) {
