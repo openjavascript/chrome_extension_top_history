@@ -6,11 +6,10 @@
     , "manifest_version": 2
     , "description": "__MSG_description__"
     , "icons": {
-        "256": "icons/logo256.png",
-        "128": "icons/logo128.png",
-        "48": "icons/logo48.png",
-        "32": "icons/logo32.png",
-        "16": "icons/logo16.png"
+        "128": "assets/img/icon128.png",
+        "48": "assets/img/icon48.png",
+        "32": "assets/img/icon32.png",
+        "16": "assets/img/icon16.png"
     } 
     , "background": {
         "page": "chrome/background.html",
