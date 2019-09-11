@@ -41,7 +41,7 @@ webpackConfig.plugins = [...webpackConfig.plugins,
         chunks: ['manifest', 'vendor', 'index'],
         template: `${helpers.root('/src/index.ejs')}`,
         showErrors: true,
-        favicon: helpers.root('/src/favicon.ico')
+        favicon: helpers.root('/src/assets/img/favicon.ico')
     }),
 
     new HtmlWebpackPlugin({
@@ -50,7 +50,7 @@ webpackConfig.plugins = [...webpackConfig.plugins,
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'login'],
         template: `${helpers.root('/src/index.ejs')}`,
-        favicon: helpers.root('/src/favicon.ico')
+        favicon: helpers.root('/src/assets/img/favicon.ico')
     }),
 
     new HtmlWebpackPlugin({
@@ -59,7 +59,7 @@ webpackConfig.plugins = [...webpackConfig.plugins,
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'popup'],
         template: `${helpers.root('/src/popup.ejs')}`,
-        favicon: helpers.root('/src/favicon.ico')
+        favicon: helpers.root('/src/assets/img/favicon.ico')
     }),
 
     new webpack.optimize.CommonsChunkPlugin({

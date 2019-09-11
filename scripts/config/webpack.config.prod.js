@@ -46,7 +46,7 @@ webpackConfig.plugins = [
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'index'],
         template: `${helpers.root('/src/index.ejs')}`,
-        favicon: helpers.root('/src/favicon.ico'),
+        favicon: helpers.root('/src/assets/img/favicon.ico'),
         minify: {
             removeComments: true,
             collapseWhitespace: false,
@@ -68,7 +68,7 @@ webpackConfig.plugins = [
         chunks: ['manifest', 'vendor', 'login'],
         //template: helpers.root('/src/index.html'),
         template: `${helpers.root('/src/index.ejs')}`,
-        favicon: helpers.root('/src/favicon.ico'),
+        favicon: helpers.root('/src/assets/img/favicon.ico'),
         minify: {
             removeComments: true,
             collapseWhitespace: false,
@@ -90,7 +90,7 @@ webpackConfig.plugins = [
         chunks: ['manifest', 'vendor', 'popup'],
         //template: helpers.root('/src/index.html'),
         template: `${helpers.root('/src/popup.ejs')}`,
-        favicon: helpers.root('/src/favicon.ico'),
+        favicon: helpers.root('/src/assets/img/favicon.ico'),
         minify: {
             removeComments: true,
             collapseWhitespace: false,
