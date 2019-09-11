@@ -38,7 +38,7 @@
             </el-col>
             <el-col :span="4" class="source">
                 <div>
-                    <a :href="'index.html?id='+item.id" :title="$t('source')" target="_save_anywhere_index" >
+                    <a :href="'index.html?id='+item.id" :title="$t('source')" target="_top_history_index" >
                         <span>{{$t('source')}}</span>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
                 </el-link>
             </el-col>
             <el-col :span="11" style="text-align: right">
-                <el-link href="./index.html" target="_save_anywhere_index" 
+                <el-link href="./index.html" target="_top_history_index" 
                     style="margin-right: -10px"
                     :title="$t('setting')"
                     >

@@ -6,7 +6,7 @@
               default-active="1"
               class="el-menu-vertical-demo"
               >
-                <el-link href="index.html" target="_save_anywhere_index">
+                <el-link href="index.html" target="_top_history_index">
                   <el-menu-item index="1">
                     <i class="el-icon-s-home"></i>{{$t('mainPage')}}
                   </el-menu-item>
@@ -30,7 +30,7 @@
                   </el-menu-item>
                 </router-link>
 
-                <el-link href="popup.html" target="_save_anywhere_popup" v-if="devMode">
+                <el-link href="popup.html" target="_top_history_popup" v-if="devMode">
                   <el-menu-item index="4">
                     <i class="el-icon-folder-opened"></i>{{$t('popupPage')}} 
                   </el-menu-item>
@@ -70,7 +70,7 @@ body {
 </style>
 
 <script>
-window.name = '_save_anywhere_index';
+window.name = '_top_history_index';
 
 export default {
 	data() {

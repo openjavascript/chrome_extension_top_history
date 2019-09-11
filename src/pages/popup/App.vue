@@ -6,7 +6,7 @@
 
 <script>
 
-window.name = '_save_anywhere_popup';
+window.name = '_top_history_popup';
 
 const packInfo = require( '@root/package.json' )
 import mainLayout from './mainLayout'
