@@ -79,11 +79,6 @@
                 </el-link>
             </el-col>
             <el-col :span="11" style="text-align: right">
-                <el-link id="login" v-if="!token">{{$t('login')}}@github</el-link>
-                <el-link v-if="token" href="javascript:;" id="logout">{{$t('logout')}}</el-link>
-                <el-link v-if="token">, </el-link>
-                <el-link v-if="token" >{{nickname}}@{{logintype}} </el-link>
-
                 <el-link href="./index.html" target="_save_anywhere_index" 
                     style="margin-right: -10px"
                     :title="$t('setting')"
