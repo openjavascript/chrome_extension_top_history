@@ -9,11 +9,11 @@
     "npm": ">=3"
   },
   "scripts": {
-    "build": "rm -rf ./top_history && webpack --config scripts/config/webpack.config.prod.js && cp ./src/manifest.json ./top_history && npm run finishbuild",
+    "build": "rm -rf ./top-history && webpack --config scripts/config/webpack.config.prod.js && cp ./src/manifest.json ./top-history && npm run finishbuild",
     "serve": "cross-env NODE_ENV=development webpack-dev-server --config scripts/config/webpack.config.dev.js --hot --inline --host 0.0.0.0 --disable-host-check --history-api-fallback",
     "finishbuild": "sh ./finishbuild.sh",
-    "backup": "cp -rf ./top_history/chrome ./src/ && cp -rf ./top_history/manifest.json ./src/manifest.json",
-    "packzip": "rm -rf top_history.zip && zip -r top_history.zip ./top_history"
+    "backup": "cp -rf ./top-history/chrome ./src/ && cp -rf ./top-history/manifest.json ./src/manifest.json",
+    "packzip": "rm -rf top-history.zip && zip -r top-history.zip ./top-history"
   },
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",

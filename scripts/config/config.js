@@ -52,7 +52,7 @@ module.exports = {
         cssSourceMap: false
     },
     build: {
-        assetsProdRoot: path.resolve(process.cwd(), prodConfig.targetDir || 'top_history'),
+        assetsProdRoot: path.resolve(process.cwd(), prodConfig.targetDir || 'top-history'),
         assetsSubDirectory: 'src',
         assetsPublicPath:
             prodConfig.host && prodConfig.port ? `//${prodConfig.host}:${prodConfig.port}/` : '/',

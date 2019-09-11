@@ -42,7 +42,7 @@ webpackConfig.plugins = [
 
     new HtmlWebpackPlugin({
         inject: true,
-        filename: helpers.root('/top_history/index.html'),
+        filename: helpers.root('/top-history/index.html'),
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'index'],
         template: `${helpers.root('/src/index.ejs')}`,
@@ -63,7 +63,7 @@ webpackConfig.plugins = [
 
     new HtmlWebpackPlugin({
         inject: true,
-        filename: helpers.root('/top_history/login.html'),
+        filename: helpers.root('/top-history/login.html'),
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'login'],
         //template: helpers.root('/src/index.html'),
@@ -85,7 +85,7 @@ webpackConfig.plugins = [
 
     new HtmlWebpackPlugin({
         inject: true,
-        filename: helpers.root('/top_history/popup.html'),
+        filename: helpers.root('/top-history/popup.html'),
         title: config.package.name,
         chunks: ['manifest', 'vendor', 'popup'],
         //template: helpers.root('/src/index.html'),

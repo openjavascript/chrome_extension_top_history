@@ -30,7 +30,7 @@
     ]
     , "update_url": "https://clients2.google.com/service/update2/crx"
     , "options_page": "index.html"
-    , "homepage_url": "https://github.com/hnjd-fe/chrome-plugin-top_history"
+    , "homepage_url": "https://github.com/hnjd-fe/chrome-plugin-top-history"
     , "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
 

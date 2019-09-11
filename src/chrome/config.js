@@ -1,7 +1,7 @@
 const config = {
     "name": "config.js"
-    , "dbName": "top_history"
-    , "dbDesc": "top_history database"
+    , "dbName": "top-history"
+    , "dbDesc": "top-history database"
     , "dbDataTableName": "notes"
 
     , "operationDelayMs": 500

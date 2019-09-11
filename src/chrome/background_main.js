@@ -11,7 +11,7 @@ main();
   "info": {
     "editable": false,
     "frameId": 0,
-    "menuItemId": "top_history",
+    "menuItemId": "top-history",
     "pageUrl": "chrome://extensions/",
     "selectionText": "ID：opkoninacfpinfmklefkfdklgdebdoen"
   },
