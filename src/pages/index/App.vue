@@ -17,12 +17,6 @@
                   </el-menu-item>
                 </router-link>
 
-                <router-link to="sync.html">
-                  <el-menu-item index="6" >
-                    <i class="el-icon-upload"></i>{{$t('sync')}}
-                  </el-menu-item>
-                </router-link>
-
                 <router-link to="dataManage.html" v-if="devMode">
                   <el-menu-item index="3" >
                     <i class="el-icon-data-board"></i>{{$t('dataManage')}}
