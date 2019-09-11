@@ -2,10 +2,12 @@
 import VueI18n from 'vue-i18n'
 import deepmerge from 'deepmerge'
 
+const packInfo = require( '@root/package.json' );
+
 // 准备翻译的语言环境信息
 const messages = {
 	en: {
-        "mainPage": "top_history",
+        "mainPage": packInfo.name,
         "importExport": "import/export",
         "dataManage": "data manage",
         "popupPage": "popup page",
@@ -28,7 +30,7 @@ const messages = {
         , "login": "login"
 	},
 	zh: {
-        "mainPage": "top_history",
+        "mainPage": packInfo.name,
         "importExport": "导入/导出",
         "dataManage": "数据管理",
         "popupPage": "popup 页面",
