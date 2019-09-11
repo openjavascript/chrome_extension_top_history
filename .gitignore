@@ -4,6 +4,13 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
+
+save-anywhere
+
+.DS_Store
+
+prod.config.js
 
 # Runtime data
 pids
@@ -59,3 +66,6 @@ typings/
 
 # next.js build output
 .next
+
+public
+dist
